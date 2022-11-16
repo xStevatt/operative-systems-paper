@@ -1,0 +1,55 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{evoting}
+
+\begin{document}
+
+
+% BEGIN OF TITLE PAGE
+\begin{titlepage}
+	\begin{center}
+		{\huge\bfseries Elaborato di Sistemi Operativi\\}
+	    \vspace{0.5cm}
+	    {\Large \textit{Elaborato su} \\}
+		% ----------------------------------------------------------------
+		\vspace{1.5cm}
+		{\Large\bfseries Stefano Valloncini \\}
+		\vspace{0.5cm}
+		{\small\bfseries\textsc{MAT. 731270} \\}
+		% ----------------------------------------------------------------
+		\vspace{2cm}
+		{Per il corso:}\\[5pt]
+		\emph{{Sitemi Operativi}}\\[0.5cm]
+		{ Docente: }\\[5pt]
+		\emph{{Pietro Baroni}}\\[2cm]
+		\vfill
+		{Università degli Studi di Brescia}\\[10pt]
+		{Ultimo aggiornamento: \today}
+	\end{center}
+\end{titlepage}
+% END OF TITLE PAGE 
+
+% DEDICATION % 
+\thispagestyle{empty}
+\vspace*{\stretch{1}}
+\begin{flushright}
+{\itshape } % QUOTE 
+\textsc{ }  % AUTHOR
+\end{flushright}
+\vspace{\stretch{2}}
+\newpage
+% END OF DEDICATION %
+
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+\setlength{\headheight}{13.59999pt}
+\pagestyle{fancy}
+
+\include{chapters/introduction}
+
+% \printbibliography
+
+\end{document}
